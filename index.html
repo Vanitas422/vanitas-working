@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>在线资料阅读与观看平台</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --card-light: #1f2937;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #22c55e;
+      --accent-2: #38bdf8;
+      --danger: #f43f5e;
+      --border: #334155;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+      background: linear-gradient(180deg, var(--bg), #020617);
+      color: var(--text);
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .logo { font-size: 1.35rem; font-weight: 700; }
+    .logo span { color: var(--accent); }
+
+    .search {
+      display: flex;
+      gap: 8px;
+      flex: 1;
+      min-width: 240px;
+      max-width: 540px;
+    }
+
+    input, select {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 10px;
+      padding: 10px 12px;
+      width: 100%;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 16px;
+    }
+
+    aside, main {
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      backdrop-filter: blur(8px);
+    }
+
+    .section-title { margin: 0 0 12px; font-size: 1rem; color: var(--accent-2); }
+
+    .list {
+      display: grid;
+      gap: 10px;
+      max-height: 70vh;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .item {
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: 10px;
+      padding: 10px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .item:hover, .item.active { border-color: var(--accent); transform: translateY(-1px); }
+    .item .type { font-size: .8rem; color: var(--muted); }
+    .item .name { margin-top: 6px; font-weight: 600; }
+
+    .viewer {
+      min-height: 460px;
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+      padding: 12px;
+      background: rgba(2, 6, 23, 0.65);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .viewer img, .viewer video, .viewer iframe {
+      width: 100%;
+      max-height: 70vh;
+      border-radius: 8px;
+      border: none;
+      object-fit: contain;
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 12px;
+      font-size: .9rem;
+      color: var(--muted);
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, .15);
+      color: var(--accent-2);
+      border: 1px solid rgba(56, 189, 248, .35);
+      font-size: .8rem;
+    }
+
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      .list { max-height: 300px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">Study<span>Hub</span> · 在线资料站</div>
+      <div class="search">
+        <input id="searchInput" placeholder="搜索资料名称，如：算法、产品培训、用户手册" />
+        <select id="typeFilter">
+          <option value="all">全部类型</option>
+          <option value="video">视频</option>
+          <option value="image">图片</option>
+          <option value="pdf">PDF</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside>
+        <h2 class="section-title">资料库</h2>
+        <div id="resourceList" class="list"></div>
+      </aside>
+
+      <main>
+        <h2 id="resourceTitle" class="section-title">请选择一个资料</h2>
+        <div id="viewer" class="viewer">从左侧点击一个资源开始查看</div>
+        <div class="meta">
+          <div id="resourceDesc">支持视频在线播放、图片预览、PDF 在线阅读。</div>
+          <div id="resourceType" class="badge">类型：-</div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    const resources = [
+      {
+        id: 1,
+        name: "前端开发基础课程",
+        type: "video",
+        desc: "HTML/CSS/JavaScript 入门视频课程",
+        url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        id: 2,
+        name: "产品架构图",
+        type: "image",
+        desc: "产品模块流程图与关系说明",
+        url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80"
+      },
+      {
+        id: 3,
+        name: "平台使用手册",
+        type: "pdf",
+        desc: "用户操作手册（PDF在线阅读）",
+        url: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        id: 4,
+        name: "售前演示视频",
+        type: "video",
+        desc: "场景化产品售前演示",
+        url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+      }
+    ];
+
+    const resourceList = document.getElementById("resourceList");
+    const viewer = document.getElementById("viewer");
+    const resourceTitle = document.getElementById("resourceTitle");
+    const resourceDesc = document.getElementById("resourceDesc");
+    const resourceType = document.getElementById("resourceType");
+    const searchInput = document.getElementById("searchInput");
+    const typeFilter = document.getElementById("typeFilter");
+
+    function renderViewer(resource) {
+      resourceTitle.textContent = resource.name;
+      resourceDesc.textContent = resource.desc;
+      resourceType.textContent = `类型：${resource.type.toUpperCase()}`;
+
+      if (resource.type === "video") {
+        viewer.innerHTML = `<video controls src="${resource.url}"></video>`;
+      } else if (resource.type === "image") {
+        viewer.innerHTML = `<img alt="${resource.name}" src="${resource.url}" />`;
+      } else if (resource.type === "pdf") {
+        viewer.innerHTML = `<iframe title="${resource.name}" src="${resource.url}"></iframe>`;
+      } else {
+        viewer.innerHTML = `<div style="color: var(--danger)">暂不支持该格式</div>`;
+      }
+    }
+
+    function renderList() {
+      const keyword = searchInput.value.trim().toLowerCase();
+      const type = typeFilter.value;
+
+      const filtered = resources.filter(item => {
+        const matchesKeyword = !keyword || item.name.toLowerCase().includes(keyword) || item.desc.toLowerCase().includes(keyword);
+        const matchesType = type === "all" || item.type === type;
+        return matchesKeyword && matchesType;
+      });
+
+      if (!filtered.length) {
+        resourceList.innerHTML = `<div style="color: var(--muted)">没有匹配的资料</div>`;
+        return;
+      }
+
+      resourceList.innerHTML = filtered.map(item => `
+        <article class="item" data-id="${item.id}">
+          <div class="type">${item.type.toUpperCase()}</div>
+          <div class="name">${item.name}</div>
+        </article>
+      `).join("");
+
+      const cards = resourceList.querySelectorAll(".item");
+      cards.forEach(card => {
+        card.addEventListener("click", () => {
+          cards.forEach(c => c.classList.remove("active"));
+          card.classList.add("active");
+          const resource = resources.find(r => r.id === Number(card.dataset.id));
+          renderViewer(resource);
+        });
+      });
+
+      cards[0].click();
+    }
+
+    searchInput.addEventListener("input", renderList);
+    typeFilter.addEventListener("change", renderList);
+    renderList();
+  </script>
+</body>
+</html>
