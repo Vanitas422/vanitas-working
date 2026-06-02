@@ -1,4 +1,0 @@
-#!/bin/sh
-
-echo "Please generate Gradle wrapper scripts via Android Studio if needed."
-exit 1
