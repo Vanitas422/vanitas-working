@@ -2,6 +2,14 @@ pluginManagement {
     repositories {
         gradlePluginPortal()
         mavenCentral()
+        maven {
+            name = 'NeoForge'
+            url = uri('https://maven.neoforged.net/releases')
+        }
+        maven {
+            name = 'NeoForgeMirror'
+            url = uri('https://neoforged.forgecdn.net/releases')
+        }
     }
 }
 
@@ -9,6 +17,14 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         mavenCentral()
+        maven {
+            name = 'NeoForge'
+            url = uri('https://maven.neoforged.net/releases')
+        }
+        maven {
+            name = 'NeoForgeMirror'
+            url = uri('https://neoforged.forgecdn.net/releases')
+        }
     }
 }
 
