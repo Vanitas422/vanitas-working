@@ -1,0 +1,88 @@
+{
+  "identifier": "arknights",
+  "display_name": "Arknights",
+  "category": "Game Style",
+  "description": "Graphic tactical anime style with muted colors",
+  "parameters": {
+    "outline_width": 2.0,
+    "outline_color": [
+      0.01,
+      0.01,
+      0.012,
+      1
+    ],
+    "shadow_steps": 2,
+    "shadow_color": [
+      0.28,
+      0.3,
+      0.34,
+      1
+    ],
+    "rim_light": 0.38,
+    "rim_light_color": [
+      0.72,
+      0.82,
+      0.9,
+      1
+    ],
+    "specular_strength": 0.32,
+    "saturation": 0.9,
+    "contrast": 1.25,
+    "ambient_occlusion": 0.65,
+    "bloom": 0.18,
+    "depth_of_field": 0.02,
+    "fog": 0.1,
+    "color_grading": "Muted Tactical",
+    "material_overrides": {
+      "Skin": {
+        "saturation": 1.05,
+        "contrast": 0.95,
+        "specular_strength": 0.22,
+        "roughness": 0.62,
+        "metallic": 0
+      },
+      "Hair": {
+        "saturation": 1.08,
+        "contrast": 1.08,
+        "specular_strength": 0.42,
+        "roughness": 0.38,
+        "metallic": 0
+      },
+      "Eyes": {
+        "saturation": 1.2,
+        "contrast": 1.18,
+        "specular_strength": 0.75,
+        "roughness": 0.18,
+        "metallic": 0
+      },
+      "Metal": {
+        "saturation": 0.95,
+        "contrast": 1.12,
+        "specular_strength": 0.85,
+        "roughness": 0.28,
+        "metallic": 1
+      },
+      "Cloth": {
+        "saturation": 1.0,
+        "contrast": 1.0,
+        "specular_strength": 0.25,
+        "roughness": 0.7,
+        "metallic": 0
+      },
+      "Weapon": {
+        "saturation": 0.98,
+        "contrast": 1.15,
+        "specular_strength": 0.7,
+        "roughness": 0.32,
+        "metallic": 0.7
+      },
+      "Environment": {
+        "saturation": 1.0,
+        "contrast": 1.0,
+        "specular_strength": 0.25,
+        "roughness": 0.65,
+        "metallic": 0
+      }
+    }
+  }
+}
