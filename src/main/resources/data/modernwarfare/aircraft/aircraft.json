@@ -1,0 +1,110 @@
+[
+  {
+    "id": "uh60",
+    "displayName": "UH60",
+    "role": "HELICOPTER",
+    "armorFront": 35,
+    "armorSide": 25,
+    "maxSpeed": 290,
+    "turret": false,
+    "thermal": true,
+    "primaryWeapon": "missile_pylon",
+    "secondaryWeapon": "door_gun"
+  },
+  {
+    "id": "ah64",
+    "displayName": "AH64",
+    "role": "HELICOPTER",
+    "armorFront": 35,
+    "armorSide": 25,
+    "maxSpeed": 290,
+    "turret": true,
+    "thermal": true,
+    "primaryWeapon": "missile_pylon",
+    "secondaryWeapon": "door_gun"
+  },
+  {
+    "id": "mi24",
+    "displayName": "Mi24",
+    "role": "HELICOPTER",
+    "armorFront": 35,
+    "armorSide": 25,
+    "maxSpeed": 290,
+    "turret": true,
+    "thermal": true,
+    "primaryWeapon": "missile_pylon",
+    "secondaryWeapon": "door_gun"
+  },
+  {
+    "id": "mi28",
+    "displayName": "Mi28",
+    "role": "HELICOPTER",
+    "armorFront": 35,
+    "armorSide": 25,
+    "maxSpeed": 290,
+    "turret": true,
+    "thermal": true,
+    "primaryWeapon": "missile_pylon",
+    "secondaryWeapon": "door_gun"
+  },
+  {
+    "id": "f16",
+    "displayName": "F16",
+    "role": "FIXED_WING",
+    "armorFront": 18,
+    "armorSide": 12,
+    "maxSpeed": 1450,
+    "turret": false,
+    "thermal": true,
+    "primaryWeapon": "air_to_air_missiles",
+    "secondaryWeapon": "aircraft_cannon"
+  },
+  {
+    "id": "f15e",
+    "displayName": "F15E",
+    "role": "FIXED_WING",
+    "armorFront": 18,
+    "armorSide": 12,
+    "maxSpeed": 1450,
+    "turret": false,
+    "thermal": true,
+    "primaryWeapon": "air_to_air_missiles",
+    "secondaryWeapon": "aircraft_cannon"
+  },
+  {
+    "id": "su27",
+    "displayName": "Su27",
+    "role": "FIXED_WING",
+    "armorFront": 18,
+    "armorSide": 12,
+    "maxSpeed": 1450,
+    "turret": false,
+    "thermal": true,
+    "primaryWeapon": "air_to_air_missiles",
+    "secondaryWeapon": "aircraft_cannon"
+  },
+  {
+    "id": "j10c",
+    "displayName": "J10C",
+    "role": "FIXED_WING",
+    "armorFront": 18,
+    "armorSide": 12,
+    "maxSpeed": 1450,
+    "turret": false,
+    "thermal": true,
+    "primaryWeapon": "air_to_air_missiles",
+    "secondaryWeapon": "aircraft_cannon"
+  },
+  {
+    "id": "j20",
+    "displayName": "J20",
+    "role": "FIXED_WING",
+    "armorFront": 18,
+    "armorSide": 12,
+    "maxSpeed": 1450,
+    "turret": false,
+    "thermal": true,
+    "primaryWeapon": "air_to_air_missiles",
+    "secondaryWeapon": "aircraft_cannon"
+  }
+]
