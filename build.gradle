@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'net.neoforged.moddev' version "${neoforge_moddev_version}"
 }
 
 group = 'com.modernwarfare'
@@ -15,6 +16,29 @@ java {
     withSourcesJar()
 }
 
+neoForge {
+    version = neoforge_version
+
+    runs {
+        client {
+            client()
+        }
+
+        server {
+            server()
+        }
+
+        data {
+            data()
+        }
+    }
+
+    mods {
+        modernwarfare {
+            sourceSet sourceSets.main
+        }
+    }
+}
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
