@@ -1,0 +1,482 @@
+[
+  {
+    "id": "9x19_armor_piercing",
+    "caliber": "9x19",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 7.5,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "9x19_tracer",
+    "caliber": "9x19",
+    "type": "TRACER",
+    "massGrams": 7.5,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "9x19_subsonic",
+    "caliber": "9x19",
+    "type": "SUBSONIC",
+    "massGrams": 7.5,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "9x19_hollow_point",
+    "caliber": "9x19",
+    "type": "HOLLOW_POINT",
+    "massGrams": 7.5,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "45acp_armor_piercing",
+    "caliber": ".45ACP",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 14.9,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "45acp_tracer",
+    "caliber": ".45ACP",
+    "type": "TRACER",
+    "massGrams": 14.9,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "45acp_subsonic",
+    "caliber": ".45ACP",
+    "type": "SUBSONIC",
+    "massGrams": 14.9,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "45acp_hollow_point",
+    "caliber": ".45ACP",
+    "type": "HOLLOW_POINT",
+    "massGrams": 14.9,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "556x45_armor_piercing",
+    "caliber": "5.56x45",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 4.0,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "556x45_tracer",
+    "caliber": "5.56x45",
+    "type": "TRACER",
+    "massGrams": 4.0,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "556x45_subsonic",
+    "caliber": "5.56x45",
+    "type": "SUBSONIC",
+    "massGrams": 4.0,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "556x45_hollow_point",
+    "caliber": "5.56x45",
+    "type": "HOLLOW_POINT",
+    "massGrams": 4.0,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "545x39_armor_piercing",
+    "caliber": "5.45x39",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 3.4,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "545x39_tracer",
+    "caliber": "5.45x39",
+    "type": "TRACER",
+    "massGrams": 3.4,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "545x39_subsonic",
+    "caliber": "5.45x39",
+    "type": "SUBSONIC",
+    "massGrams": 3.4,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "545x39_hollow_point",
+    "caliber": "5.45x39",
+    "type": "HOLLOW_POINT",
+    "massGrams": 3.4,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "762x39_armor_piercing",
+    "caliber": "7.62x39",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 8.0,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "762x39_tracer",
+    "caliber": "7.62x39",
+    "type": "TRACER",
+    "massGrams": 8.0,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "762x39_subsonic",
+    "caliber": "7.62x39",
+    "type": "SUBSONIC",
+    "massGrams": 8.0,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "762x39_hollow_point",
+    "caliber": "7.62x39",
+    "type": "HOLLOW_POINT",
+    "massGrams": 8.0,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "762x51_armor_piercing",
+    "caliber": "7.62x51",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 9.5,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "762x51_tracer",
+    "caliber": "7.62x51",
+    "type": "TRACER",
+    "massGrams": 9.5,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "762x51_subsonic",
+    "caliber": "7.62x51",
+    "type": "SUBSONIC",
+    "massGrams": 9.5,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "762x51_hollow_point",
+    "caliber": "7.62x51",
+    "type": "HOLLOW_POINT",
+    "massGrams": 9.5,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "338_lapua_armor_piercing",
+    "caliber": ".338 Lapua",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 16.2,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "338_lapua_tracer",
+    "caliber": ".338 Lapua",
+    "type": "TRACER",
+    "massGrams": 16.2,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "338_lapua_subsonic",
+    "caliber": ".338 Lapua",
+    "type": "SUBSONIC",
+    "massGrams": 16.2,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "338_lapua_hollow_point",
+    "caliber": ".338 Lapua",
+    "type": "HOLLOW_POINT",
+    "massGrams": 16.2,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "50_bmg_armor_piercing",
+    "caliber": ".50 BMG",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 42.0,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "50_bmg_tracer",
+    "caliber": ".50 BMG",
+    "type": "TRACER",
+    "massGrams": 42.0,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "50_bmg_subsonic",
+    "caliber": ".50 BMG",
+    "type": "SUBSONIC",
+    "massGrams": 42.0,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "50_bmg_hollow_point",
+    "caliber": ".50 BMG",
+    "type": "HOLLOW_POINT",
+    "massGrams": 42.0,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "12_gauge_armor_piercing",
+    "caliber": "12 Gauge",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 28.0,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "12_gauge_tracer",
+    "caliber": "12 Gauge",
+    "type": "TRACER",
+    "massGrams": 28.0,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "12_gauge_subsonic",
+    "caliber": "12 Gauge",
+    "type": "SUBSONIC",
+    "massGrams": 28.0,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "12_gauge_hollow_point",
+    "caliber": "12 Gauge",
+    "type": "HOLLOW_POINT",
+    "massGrams": 28.0,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "40mm_armor_piercing",
+    "caliber": "40mm",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 230.0,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "40mm_tracer",
+    "caliber": "40mm",
+    "type": "TRACER",
+    "massGrams": 230.0,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "40mm_subsonic",
+    "caliber": "40mm",
+    "type": "SUBSONIC",
+    "massGrams": 230.0,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "40mm_hollow_point",
+    "caliber": "40mm",
+    "type": "HOLLOW_POINT",
+    "massGrams": 230.0,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "rocket_armor_piercing",
+    "caliber": "rocket",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 1800.0,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "rocket_tracer",
+    "caliber": "rocket",
+    "type": "TRACER",
+    "massGrams": 1800.0,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "rocket_subsonic",
+    "caliber": "rocket",
+    "type": "SUBSONIC",
+    "massGrams": 1800.0,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "rocket_hollow_point",
+    "caliber": "rocket",
+    "type": "HOLLOW_POINT",
+    "massGrams": 1800.0,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  },
+  {
+    "id": "missile_armor_piercing",
+    "caliber": "missile",
+    "type": "ARMOR_PIERCING",
+    "massGrams": 6400.0,
+    "muzzleVelocityMultiplier": 1.0,
+    "penetrationMultiplier": 1.35,
+    "damageMultiplier": 0.95,
+    "tracer": false
+  },
+  {
+    "id": "missile_tracer",
+    "caliber": "missile",
+    "type": "TRACER",
+    "massGrams": 6400.0,
+    "muzzleVelocityMultiplier": 0.98,
+    "penetrationMultiplier": 1.0,
+    "damageMultiplier": 1.0,
+    "tracer": true
+  },
+  {
+    "id": "missile_subsonic",
+    "caliber": "missile",
+    "type": "SUBSONIC",
+    "massGrams": 6400.0,
+    "muzzleVelocityMultiplier": 0.62,
+    "penetrationMultiplier": 0.85,
+    "damageMultiplier": 0.9,
+    "tracer": false
+  },
+  {
+    "id": "missile_hollow_point",
+    "caliber": "missile",
+    "type": "HOLLOW_POINT",
+    "massGrams": 6400.0,
+    "muzzleVelocityMultiplier": 0.95,
+    "penetrationMultiplier": 0.65,
+    "damageMultiplier": 1.25,
+    "tracer": false
+  }
+]

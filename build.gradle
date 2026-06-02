@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.modernwarfare'
+version = '1.0.0'
+
+base {
+    archivesName = 'modernwarfare-reforged'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+    withSourcesJar()
+}
+
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+jar {
+    manifest {
+        attributes(
+                'Specification-Title': 'Modern Warfare Reforged',
+                'Specification-Vendor': 'modernwarfare',
+                'Specification-Version': '1',
+                'Implementation-Title': project.name,
+                'Implementation-Version': project.version,
+                'Implementation-Vendor': 'modernwarfare'
+        )
+    }
+}

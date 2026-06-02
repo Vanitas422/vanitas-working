@@ -1,0 +1,146 @@
+[
+  {
+    "id": "fast_iiia",
+    "displayName": "FAST IIIA",
+    "kind": "HELMET",
+    "armorClass": "IIIA",
+    "weight": 2.4000000000000004,
+    "durability": 100
+  },
+  {
+    "id": "fast_iii",
+    "displayName": "FAST III",
+    "kind": "HELMET",
+    "armorClass": "III",
+    "weight": 2.2,
+    "durability": 100
+  },
+  {
+    "id": "fast_iv",
+    "displayName": "FAST IV",
+    "kind": "HELMET",
+    "armorClass": "IV",
+    "weight": 2.0,
+    "durability": 100
+  },
+  {
+    "id": "ach_iiia",
+    "displayName": "ACH IIIA",
+    "kind": "HELMET",
+    "armorClass": "IIIA",
+    "weight": 2.4000000000000004,
+    "durability": 100
+  },
+  {
+    "id": "ach_iii",
+    "displayName": "ACH III",
+    "kind": "HELMET",
+    "armorClass": "III",
+    "weight": 2.2,
+    "durability": 100
+  },
+  {
+    "id": "ach_iv",
+    "displayName": "ACH IV",
+    "kind": "HELMET",
+    "armorClass": "IV",
+    "weight": 2.0,
+    "durability": 100
+  },
+  {
+    "id": "mich2000_iiia",
+    "displayName": "MICH2000 IIIA",
+    "kind": "HELMET",
+    "armorClass": "IIIA",
+    "weight": 2.4000000000000004,
+    "durability": 100
+  },
+  {
+    "id": "mich2000_iii",
+    "displayName": "MICH2000 III",
+    "kind": "HELMET",
+    "armorClass": "III",
+    "weight": 2.2,
+    "durability": 100
+  },
+  {
+    "id": "mich2000_iv",
+    "displayName": "MICH2000 IV",
+    "kind": "HELMET",
+    "armorClass": "IV",
+    "weight": 2.0,
+    "durability": 100
+  },
+  {
+    "id": "jpc_iiia",
+    "displayName": "JPC IIIA",
+    "kind": "PLATE_CARRIER",
+    "armorClass": "IIIA",
+    "weight": 6.4,
+    "durability": 180
+  },
+  {
+    "id": "jpc_iii",
+    "displayName": "JPC III",
+    "kind": "PLATE_CARRIER",
+    "armorClass": "III",
+    "weight": 5.8,
+    "durability": 180
+  },
+  {
+    "id": "jpc_iv",
+    "displayName": "JPC IV",
+    "kind": "PLATE_CARRIER",
+    "armorClass": "IV",
+    "weight": 5.2,
+    "durability": 180
+  },
+  {
+    "id": "cpc_iiia",
+    "displayName": "CPC IIIA",
+    "kind": "PLATE_CARRIER",
+    "armorClass": "IIIA",
+    "weight": 6.4,
+    "durability": 180
+  },
+  {
+    "id": "cpc_iii",
+    "displayName": "CPC III",
+    "kind": "PLATE_CARRIER",
+    "armorClass": "III",
+    "weight": 5.8,
+    "durability": 180
+  },
+  {
+    "id": "cpc_iv",
+    "displayName": "CPC IV",
+    "kind": "PLATE_CARRIER",
+    "armorClass": "IV",
+    "weight": 5.2,
+    "durability": 180
+  },
+  {
+    "id": "avs_iiia",
+    "displayName": "AVS IIIA",
+    "kind": "PLATE_CARRIER",
+    "armorClass": "IIIA",
+    "weight": 6.4,
+    "durability": 180
+  },
+  {
+    "id": "avs_iii",
+    "displayName": "AVS III",
+    "kind": "PLATE_CARRIER",
+    "armorClass": "III",
+    "weight": 5.8,
+    "durability": 180
+  },
+  {
+    "id": "avs_iv",
+    "displayName": "AVS IV",
+    "kind": "PLATE_CARRIER",
+    "armorClass": "IV",
+    "weight": 5.2,
+    "durability": 180
+  }
+]

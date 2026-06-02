@@ -1,0 +1,17 @@
+package com.modernwarfare.weapon;
+
+public enum WeaponCategory {
+    PISTOL,
+    SUBMACHINE_GUN,
+    ASSAULT_RIFLE,
+    BATTLE_RIFLE,
+    SNIPER_RIFLE,
+    SHOTGUN,
+    LIGHT_MACHINE_GUN,
+    GENERAL_PURPOSE_MACHINE_GUN,
+    HEAVY_MACHINE_GUN,
+    GRENADE_LAUNCHER,
+    ROCKET_LAUNCHER,
+    ANTI_TANK_MISSILE,
+    ANTI_AIR_MISSILE
+}

@@ -1,0 +1,392 @@
+{
+  "weapon.glock17.fire": {
+    "sounds": [
+      "modernwarfare:weapon/glock17/fire_near"
+    ]
+  },
+  "weapon.glock19.fire": {
+    "sounds": [
+      "modernwarfare:weapon/glock19/fire_near"
+    ]
+  },
+  "weapon.glock18_c.fire": {
+    "sounds": [
+      "modernwarfare:weapon/glock18_c/fire_near"
+    ]
+  },
+  "weapon.s_i_g_p226.fire": {
+    "sounds": [
+      "modernwarfare:weapon/s_i_g_p226/fire_near"
+    ]
+  },
+  "weapon.s_i_g_p320.fire": {
+    "sounds": [
+      "modernwarfare:weapon/s_i_g_p320/fire_near"
+    ]
+  },
+  "weapon.m1911.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m1911/fire_near"
+    ]
+  },
+  "weapon.u_s_p45.fire": {
+    "sounds": [
+      "modernwarfare:weapon/u_s_p45/fire_near"
+    ]
+  },
+  "weapon.h_k45.fire": {
+    "sounds": [
+      "modernwarfare:weapon/h_k45/fire_near"
+    ]
+  },
+  "weapon.five_seven.fire": {
+    "sounds": [
+      "modernwarfare:weapon/five_seven/fire_near"
+    ]
+  },
+  "weapon.desert_eagle.fire": {
+    "sounds": [
+      "modernwarfare:weapon/desert_eagle/fire_near"
+    ]
+  },
+  "weapon.m_p5.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m_p5/fire_near"
+    ]
+  },
+  "weapon.m_p5_s_d.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m_p5_s_d/fire_near"
+    ]
+  },
+  "weapon.m_p7_a2.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m_p7_a2/fire_near"
+    ]
+  },
+  "weapon.u_m_p45.fire": {
+    "sounds": [
+      "modernwarfare:weapon/u_m_p45/fire_near"
+    ]
+  },
+  "weapon.p90.fire": {
+    "sounds": [
+      "modernwarfare:weapon/p90/fire_near"
+    ]
+  },
+  "weapon.vector45.fire": {
+    "sounds": [
+      "modernwarfare:weapon/vector45/fire_near"
+    ]
+  },
+  "weapon.m_p_x.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m_p_x/fire_near"
+    ]
+  },
+  "weapon.m4_a1.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m4_a1/fire_near"
+    ]
+  },
+  "weapon.h_k416.fire": {
+    "sounds": [
+      "modernwarfare:weapon/h_k416/fire_near"
+    ]
+  },
+  "weapon.h_k417.fire": {
+    "sounds": [
+      "modernwarfare:weapon/h_k417/fire_near"
+    ]
+  },
+  "weapon.a_k47.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_k47/fire_near"
+    ]
+  },
+  "weapon.a_k_m.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_k_m/fire_near"
+    ]
+  },
+  "weapon.a_k74_m.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_k74_m/fire_near"
+    ]
+  },
+  "weapon.a_k12.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_k12/fire_near"
+    ]
+  },
+  "weapon.a_k103.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_k103/fire_near"
+    ]
+  },
+  "weapon.a_k105.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_k105/fire_near"
+    ]
+  },
+  "weapon.q_b_z95.fire": {
+    "sounds": [
+      "modernwarfare:weapon/q_b_z95/fire_near"
+    ]
+  },
+  "weapon.q_b_z191.fire": {
+    "sounds": [
+      "modernwarfare:weapon/q_b_z191/fire_near"
+    ]
+  },
+  "weapon.g36.fire": {
+    "sounds": [
+      "modernwarfare:weapon/g36/fire_near"
+    ]
+  },
+  "weapon.a_u_g_a3.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_u_g_a3/fire_near"
+    ]
+  },
+  "weapon.t_a_r21.fire": {
+    "sounds": [
+      "modernwarfare:weapon/t_a_r21/fire_near"
+    ]
+  },
+  "weapon.f_a_m_a_s.fire": {
+    "sounds": [
+      "modernwarfare:weapon/f_a_m_a_s/fire_near"
+    ]
+  },
+  "weapon.s_c_a_r_l.fire": {
+    "sounds": [
+      "modernwarfare:weapon/s_c_a_r_l/fire_near"
+    ]
+  },
+  "weapon.s_c_a_r_h.fire": {
+    "sounds": [
+      "modernwarfare:weapon/s_c_a_r_h/fire_near"
+    ]
+  },
+  "weapon.m_c_x_virtus.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m_c_x_virtus/fire_near"
+    ]
+  },
+  "weapon.s_i_g_spear.fire": {
+    "sounds": [
+      "modernwarfare:weapon/s_i_g_spear/fire_near"
+    ]
+  },
+  "weapon.f_a_l.fire": {
+    "sounds": [
+      "modernwarfare:weapon/f_a_l/fire_near"
+    ]
+  },
+  "weapon.g3_a3.fire": {
+    "sounds": [
+      "modernwarfare:weapon/g3_a3/fire_near"
+    ]
+  },
+  "weapon.s_r25.fire": {
+    "sounds": [
+      "modernwarfare:weapon/s_r25/fire_near"
+    ]
+  },
+  "weapon.m110.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m110/fire_near"
+    ]
+  },
+  "weapon.m24.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m24/fire_near"
+    ]
+  },
+  "weapon.m40_a5.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m40_a5/fire_near"
+    ]
+  },
+  "weapon.a_w_m.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_w_m/fire_near"
+    ]
+  },
+  "weapon.a_x_m_c.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_x_m_c/fire_near"
+    ]
+  },
+  "weapon.m82_a1.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m82_a1/fire_near"
+    ]
+  },
+  "weapon.m107.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m107/fire_near"
+    ]
+  },
+  "weapon.t_a_c50.fire": {
+    "sounds": [
+      "modernwarfare:weapon/t_a_c50/fire_near"
+    ]
+  },
+  "weapon.m870.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m870/fire_near"
+    ]
+  },
+  "weapon.m590.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m590/fire_near"
+    ]
+  },
+  "weapon.benelli_m4.fire": {
+    "sounds": [
+      "modernwarfare:weapon/benelli_m4/fire_near"
+    ]
+  },
+  "weapon.saiga12.fire": {
+    "sounds": [
+      "modernwarfare:weapon/saiga12/fire_near"
+    ]
+  },
+  "weapon.a_a12.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_a12/fire_near"
+    ]
+  },
+  "weapon.m249.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m249/fire_near"
+    ]
+  },
+  "weapon.m240_b.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m240_b/fire_near"
+    ]
+  },
+  "weapon.p_k_m.fire": {
+    "sounds": [
+      "modernwarfare:weapon/p_k_m/fire_near"
+    ]
+  },
+  "weapon.p_k_p_pecheneg.fire": {
+    "sounds": [
+      "modernwarfare:weapon/p_k_p_pecheneg/fire_near"
+    ]
+  },
+  "weapon.r_p_k74.fire": {
+    "sounds": [
+      "modernwarfare:weapon/r_p_k74/fire_near"
+    ]
+  },
+  "weapon.m_g3.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m_g3/fire_near"
+    ]
+  },
+  "weapon.m60_e4.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m60_e4/fire_near"
+    ]
+  },
+  "weapon.f_n_m_a_g.fire": {
+    "sounds": [
+      "modernwarfare:weapon/f_n_m_a_g/fire_near"
+    ]
+  },
+  "weapon.m2_browning.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m2_browning/fire_near"
+    ]
+  },
+  "weapon.d_sh_k.fire": {
+    "sounds": [
+      "modernwarfare:weapon/d_sh_k/fire_near"
+    ]
+  },
+  "weapon.kord.fire": {
+    "sounds": [
+      "modernwarfare:weapon/kord/fire_near"
+    ]
+  },
+  "weapon.m203.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m203/fire_near"
+    ]
+  },
+  "weapon.m320.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m320/fire_near"
+    ]
+  },
+  "weapon.g_p25.fire": {
+    "sounds": [
+      "modernwarfare:weapon/g_p25/fire_near"
+    ]
+  },
+  "weapon.mk19.fire": {
+    "sounds": [
+      "modernwarfare:weapon/mk19/fire_near"
+    ]
+  },
+  "weapon.r_p_g7.fire": {
+    "sounds": [
+      "modernwarfare:weapon/r_p_g7/fire_near"
+    ]
+  },
+  "weapon.r_p_g29.fire": {
+    "sounds": [
+      "modernwarfare:weapon/r_p_g29/fire_near"
+    ]
+  },
+  "weapon.a_t4.fire": {
+    "sounds": [
+      "modernwarfare:weapon/a_t4/fire_near"
+    ]
+  },
+  "weapon.m72_l_a_w.fire": {
+    "sounds": [
+      "modernwarfare:weapon/m72_l_a_w/fire_near"
+    ]
+  },
+  "weapon.javelin.fire": {
+    "sounds": [
+      "modernwarfare:weapon/javelin/fire_near"
+    ]
+  },
+  "weapon.t_o_w.fire": {
+    "sounds": [
+      "modernwarfare:weapon/t_o_w/fire_near"
+    ]
+  },
+  "weapon.kornet.fire": {
+    "sounds": [
+      "modernwarfare:weapon/kornet/fire_near"
+    ]
+  },
+  "weapon.stinger.fire": {
+    "sounds": [
+      "modernwarfare:weapon/stinger/fire_near"
+    ]
+  },
+  "weapon.igla.fire": {
+    "sounds": [
+      "modernwarfare:weapon/igla/fire_near"
+    ]
+  },
+  "bullet.supersonic_crack": {
+    "sounds": [
+      "modernwarfare:bullet/supersonic_crack"
+    ]
+  },
+  "bullet.whiz": {
+    "sounds": [
+      "modernwarfare:bullet/whiz"
+    ]
+  }
+}
